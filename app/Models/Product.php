@@ -10,10 +10,6 @@ class Product extends Model
     use hasFactory;
     protected $fillable = ['store_id', 'name', 'description', 'price'];
 
-    public static function create(array $all)
-    {
-    }
-
     public static function findOrFail(string $id)
     {
     }
